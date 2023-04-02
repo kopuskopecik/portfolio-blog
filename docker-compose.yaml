@@ -17,10 +17,12 @@ services:
   nginx:
     build:
       context: ./nginx
+    image: my_nginx:1.0.0
+    container_name: nginx
     ports:
       - 80:80
       - 443:443
     depends_on:
       - backend
-    # volumes:
-    #   - ./nginx/certificate /app/certificate
+    volumes:
+      - /etc/letsencrypt/live/blog.erdogansahin.net/ /app/certificate
