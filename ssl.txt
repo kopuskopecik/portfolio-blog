@@ -1,0 +1,2 @@
+/etc/letsencrypt/live/blog.erdogansahin.net/fullchain.pem
+/etc/letsencrypt/live/blog.erdogansahin.net/privkey.pem
