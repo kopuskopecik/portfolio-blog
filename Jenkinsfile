@@ -6,7 +6,6 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                echo 'not using shell in the Jenkinsfile'
                 sh 'pwd'
                 sh "cd /var/lib/jenkins/workspace/github-hook"
                 sh "docker system prune -a --force"
