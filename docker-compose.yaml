@@ -25,4 +25,4 @@ services:
     depends_on:
       - backend
     volumes:
-      - /etc/letsencrypt/live/blog.erdogansahin.net/:/app/certificate
+      - /etc/letsencrypt/live/blog.erdogansahin.net/:/app/certificate/
