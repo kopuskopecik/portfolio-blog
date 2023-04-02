@@ -10,7 +10,7 @@ pipeline {
                 sh "cd /var/lib/jenkins/workspace/github-hook"
                 sh "docker system prune -a --force"
                 sh '/usr/local/bin/docker-compose up -d --build'
-                sh 'cat /etc/letsencrypt/live/blog.erdogansahin.net/fullchain.pem > /var/lib/jenkins/workspace/github-hook/example.txt'
+                sh 'sudo cat /etc/letsencrypt/live/blog.erdogansahin.net/fullchain.pem > /var/lib/jenkins/workspace/github-hook/example.txt'
                 echo 'it works111'                
             }
         }
