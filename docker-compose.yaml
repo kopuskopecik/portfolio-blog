@@ -35,4 +35,4 @@ services:
     image: me:1.0.0
     container_name: me
     ports:
-      - 8080:80
+      - 8060:80
