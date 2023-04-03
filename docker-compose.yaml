@@ -21,9 +21,18 @@ services:
     container_name: nginx
     ports:
       - 80:80
+      - 8040:8040
       - 443:443
-      - 8080:8080
     depends_on:
       - backend
+      - me
     # volumes:
     #   - ./nginx/certificate:/app/certificate/
+
+  me:
+    build:
+      context: ./me
+    image: me:1.0.0
+    container_name: me
+    ports:
+      - 8080:80
