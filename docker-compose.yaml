@@ -13,21 +13,6 @@ services:
       - ./backend:/backend
     env_file:
       - ./.env
-  
-  nginx:
-    build:
-      context: ./nginx
-    image: my_nginx:1.0.0
-    container_name: nginx
-    ports:
-      - 80:80
-      - 8040:8040
-      - 443:443
-    depends_on:
-      - backend
-      - me
-    # volumes:
-    #   - ./nginx/certificate:/app/certificate/
 
   me:
     build:
