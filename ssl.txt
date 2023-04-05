@@ -2,4 +2,7 @@
 /etc/letsencrypt/live/blog.erdogansahin.net/privkey.pem
 
 /etc/letsencrypt/live/me.erdogansahin.net/fullchain.pem
-/etc/letsencrypt/live/me.erdogansahin.net/privkey.pem
+/etc/letsencrypt/live/me.erdogansahin.net/privkey.pem  
+
+
+
