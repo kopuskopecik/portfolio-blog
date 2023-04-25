@@ -1,12 +1,18 @@
-# Python Blog Website
-This website contains more than 500 topics and 1000 examples about Python for Turkish and English, its modules and packages...
-
+# My Blog and Portfolio
+This website contains more than 500 topics and 1000 examples about Python for Turkish and English, its modules and packages. It can also deployed automatically by using Jenkins. Additionally It can monorized by using Promethous and Grafana. 
 
 ## Overview
 
-![Alt Text](pythonakademi.gif)
+![Alt Text](./records/pythonakademi.gif)
 
-[Live Link from Pythonanywhere](https://erdogan.pythonanywhere.com/en/python/)
+![Alt Text](./records/grafana.gif)
+
+[Blog web site](https://blog.erdogansahin.net/en/python/)
+
+[Portfolio](https://me.erdogansahin.net/)
+
+[Grafana](https://grafana.erdogansahin.net/)
+
 
 ## Contact
 
