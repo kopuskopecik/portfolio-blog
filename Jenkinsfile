@@ -11,7 +11,7 @@ pipeline {
                 sh "docker system prune -a --force"
                 sh '/usr/local/bin/docker-compose down'
                 sh '/usr/local/bin/docker-compose up -d --build'
-                echo 'it works111'                
+                echo 'It works'                
             }
         }
     }
