@@ -4,3 +4,4 @@ django-ckeditor
 django-crispy-forms==1.9
 django-recaptcha
 python-decouple
+django-prometheus

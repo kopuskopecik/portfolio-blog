@@ -47,5 +47,6 @@ urlpatterns = [
 	path('en/python/', include('ingilizce.urls')),
 	path('', include('hakkimizda.urls')),
 	path('', include('front.urls')),
+	path('', include('django_prometheus.urls')),
 	
 ]
