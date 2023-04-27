@@ -1,5 +1,5 @@
 # My Blog and Portfolio
-This website contains more than 500 topics and 1000 examples about Python for Turkish and English, its modules and packages. It can be also deployed automatically by using Jenkins and Github-hook. Additionally It can be monitorized by using Promethous and Grafana. 
+This website contains more than 500 topics and 1000 examples about Python for Turkish and English, its modules and packages. It can be also deployed automatically by using Jenkins and Github-hook. Additionally Requests, responses, requests to databases  can be monitorized by using Promethous and Grafana. Logs can be also seen for the backend and portfolio using promtail and loki.
 
 ## Used Technologies
 
@@ -12,6 +12,8 @@ This website contains more than 500 topics and 1000 examples about Python for Tu
 - EC2 and Route53 Services
 - Promethous
 - Grafana
+- Loki
+- Promtail
 - Nginx
 - Certbot
 - Sqlite3
