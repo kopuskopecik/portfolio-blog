@@ -20,11 +20,13 @@ This website contains more than 500 topics and 1000 examples about Python for Tu
 
 ## Overview
 
-![Alt Text](./records/pythonakademi.gif)
+![Blog](./records/pythonakademi.gif)
 
-![Alt Text](./records/grafana.gif)
+![Loki](./records/loki.gif)
 
-![Alt Text](./records/jenkins.GIF)
+![Grafana](./records/grafana.gif)
+
+![Jenkins](./records/jenkins.GIF)
 
 [Blog web site](https://blog.erdogansahin.net/en/python/)
 
