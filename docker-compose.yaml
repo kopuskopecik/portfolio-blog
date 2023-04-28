@@ -45,11 +45,6 @@ services:
     networks:
       - app
 
-  # grafana:
-  #   image: grafana/grafana:6.5.2
-  #   ports:
-  #     - 3000:3000
-
   grafana:
     image: grafana/grafana:9.3.6
     ports:
