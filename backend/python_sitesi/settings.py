@@ -154,7 +154,7 @@ STATIC_URL = '/static/'
 # STATICFILES_DIRS = [
 # 	os.path.join(BASE_DIR, 'static')
 # ]
-STATIC_ROOT = os.path.join(BASE_DIR, 'stati')
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 CRISPY_TEMPLATE_PACK = "bootstrap4"
 CKEDITOR_jQUERY_URL = os.path.join(STATIC_URL, "js/jquery.min.js")
