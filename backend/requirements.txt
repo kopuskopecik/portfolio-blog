@@ -5,5 +5,3 @@ django-crispy-forms==1.9
 django-recaptcha
 python-decouple
 django-prometheus
-gunicorn==20.0.4
-gevent==21.1.2
