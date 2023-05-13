@@ -1,5 +1,7 @@
 # My Blog and Portfolio
-This website contains more than 500 topics and 1000 examples about Python for Turkish and English, its modules and packages. It can be also deployed automatically by using Jenkins and Github-hook. Additionally Requests, responses, requests to databases  can be monitorized by using Promethous and Grafana. Logs can be also seen for the backend and portfolio using promtail and loki.
+This website contains more than 500 topics and 1000 examples about Python for Turkish and English, its modules and packages. It can be also deployed automatically by using Jenkins and Github-hook. Additionally requests, responses, requests to databases  can be monitorized by using Promethous on Grafana. Logs can be also seen for the backend and my portfolio web site using promtail and loki on Grafana too.
+
+Nginx was used for reverse proxy to be able to redirect to blog.erdogansahin.net, me.erdogansahin.net and grafana.erdogansahin.net.
 
 ## Used Technologies
 
